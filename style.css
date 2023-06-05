@@ -1,0 +1,557 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-image:  url();
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* .navmenu{
+    height: 250px;
+    width: 100%;
+} */
+
+
+
+.navmenu ul>img{
+    height: 135px;
+    width: 200px;
+    /* border: 2px solid black; */
+    border-radius: 2px;
+    float: left;
+    background: transparent;
+}
+
+.navmenu li>a{
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    background: none;
+    padding: 20px;
+    /* padding-left: 4px;
+   padding-bottom: 4px;  */
+    margin-top: -4px;
+    color:#000;
+    height:60px;
+    margin-top: 10px;
+}
+.navmenu ul li >a:hover{
+    background: #d1ca65;
+    color: #000;
+    transition: 0.3s ease-out;
+    
+}
+.navmenu{
+    line-height: 50px;
+}
+.navmenu ul li{
+    position:relative;
+    left: 38%;
+    top: -10px;
+    height: 150px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top:10px ;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    background:none;
+}
+
+.main>h1{
+  
+    position: absolute;
+    top: 40%;
+    left: 34%;
+}
+.main button{
+    position: absolute;
+    top: 60%;
+    left: 38%;
+    height: 55px;
+    width: 285px;
+    border-radius: 6px;
+    background: #d1ca65;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.6sec ease-in;
+    cursor: pointer;
+    color: black;
+}
+.main button:hover{
+    background: #fff;
+    color: #000;
+    transition: 0.6s ease-out;
+    
+}
+.main{
+    height: 72%;
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    bottom: 30%;
+    background-image:  url(https://st4.depositphotos.com/4285567/21310/i/450/depositphotos_213104598-stock-photo-rain-forest-wet-leaves-foreground.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.main>h1{
+    color: #fff;
+    font-family: sans-serif;
+}
+.range{
+    position: absolute;
+    top: 95%;
+    left: 40%;
+}
+.range h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 4px;
+}
+.range h2{
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+    font-size: bold;
+    font-weight: 400;
+    margin-left: 7%;
+    padding-bottom: 10px;
+}
+
+.range h4{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+
+.container{
+    width: 88%;
+    position: absolute;
+     top: 110%;
+    left: 8%;
+    /* background-color: #7e7878; */
+    /* color: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px;
+} 
+.card{
+color:#000;
+background:#fff;
+width: 400px;
+height: 450px;
+margin: 10px;
+border-radius: 10px;
+box-shadow: 0px 5px 3px grey;
+
+}
+
+.card-image{
+    background-color: aqua;
+    height: 375px;
+    background-image: url("https://previews.123rf.com/images/sutichak/sutichak1511/sutichak151100784/47991790-design-of-interior-living-room-modern-style-with-sofa-furniture-in-green-garden-background.jpg");
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 8px;
+}
+
+
+
+.container-2{
+    width: 88%;
+    position: absolute;
+     top: 180%;
+    left: 8%;
+    /* background-color: #7e7878; */
+    /* color: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px;
+} 
+.card-2{
+color:#000;
+background:#fff;
+width: 400px;
+height: 450px;
+margin: 10px;
+border-radius: 10px;
+box-shadow: 0px 5px 3px grey;
+
+}
+
+.card-image-2{
+    background-color: aqua;
+    height: 375px;
+    background-image: url("https://previews.123rf.com/images/sutichak/sutichak1511/sutichak151100784/47991790-design-of-interior-living-room-modern-style-with-sofa-furniture-in-green-garden-background.jpg");
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 8px;
+}
+.card>p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-2>p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.between>p{
+    position: absolute;
+    right: 32%;
+    top: 250%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:oblique;
+    font-size: 25px;
+}
+
+.service{
+    position:absolute;
+    top: 260%;
+     height: 1000px;
+     width: 100%;
+     background: rgb(245, 241, 245);
+}
+.service >h1 {
+    position: absolute;
+    left: 48%;
+    top: 30px;
+}
+.service >p{
+    position: absolute;
+    left: 38%;
+    top: 10%;
+}
+.set{
+    position: absolute;
+    left: 29%;
+    top: 90%;
+    margin: 10px;
+}
+.area{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rectangle{
+ color:#000;
+background:#fff;
+width: 700px;
+height: 150px;
+margin: 10px;
+border-radius: 8px;
+box-shadow: 0px 5px 3px grey;
+}
+.rectangle>img{
+    height: 150px;
+    width: 200px;
+    background: #fff;
+}
+.rectangle>h2{
+  position: relative;
+  left: 32%;
+  top: -90%;
+}
+.rectangle>p{
+    position: relative;
+    left: 32%;
+    top: -82%;
+}
+
+.area-2{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rectangle-2{
+    color:#000;
+   background:#fff;
+   width: 700px;
+   height: 150px;
+   margin: 10px;
+   border-radius: 8px;
+   box-shadow: 0px 5px 3px grey;
+}
+.rectangle-2>img{
+    height: 150px;
+    width: 200px;
+    background: #fff;
+}
+.rectangle-2>h2{
+  position: relative;
+  left: 32%;
+  top: -90%;
+}
+.rectangle-2>p{
+    position: relative;
+    left: 32%;
+    top: -82%;
+}
+.payment>h1{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:65%;
+    left: 42%;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 5px auto;
+    /* height: 80%;
+    width: 100%; */
+}
+
+.icon>li a img{
+    border: 1px grey;
+    border-radius: 10px;
+    margin: 5px auto;
+    padding: 4px;
+    height: 70px;
+    width: 70px;
+}
+
+.payment-para{
+    font-family: Arial, Helvetica, sans-serif;
+      position: absolute;
+      top: 80%;
+      left: 40%;
+      margin-top: -50px;
+}
+.set-2{
+    position: relative;
+    top: 70%;
+     margin: 25px auto; 
+    left: 5%;
+    padding: 10px;
+}
+
+.container-3{
+    width: 88%;
+    position: absolute;
+     top: 405%;
+    left: 8%;
+     /* background-color:aqua;  */
+    /* color: #fff; */
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px;  
+} 
+.card-3{
+color:#000;
+background:#fff;
+width: 400px;
+height: 450px;
+margin: 10px;
+border-radius: 10px;
+box-shadow: 0px 5px 3px grey;
+
+
+}
+
+.card-image-first{
+    /* background-color: aqua; */
+    height: 375px;
+    background-image: url("https://media.istockphoto.com/id/1337392092/photo/shot-of-a-sofa-in-the-lounge-at-home.jpg?b=1&s=170667a&w=0&k=20&c=99bd43lRaBsq-hsuO0nzx0lh_wXzJd_UjwkmcQWM86Y="); 
+    background-size: cover;
+    /* background: aqua; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 8px;
+}
+.card-image-second{
+    /* background-color: aqua; */
+    height: 375px;
+    background-image: url("https://t4.ftcdn.net/jpg/05/51/69/95/360_F_551699573_1wjaMGnizF5QeorJJIgw5eRtmq5nQnzz.jpg"); 
+    background-size: cover;
+    /* background: aqua; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 8px;
+}
+.card-image-third{
+    /* background-color: aqua; */
+    height: 375px;
+    background-image: url("https://s3.envato.com/files/370068144/rm430-rm250-b47.jpg"); 
+    background-size: cover;
+    /* background: aqua; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 8px;
+}
+
+
+.alert{
+    position: absolute;
+    top: 390%;
+    left: 40%;
+}
+.alert>h4{
+    font-weight: lighter;
+    margin: 15px;
+}
+.alert h2{
+    position: relative;
+    left: 18.5%;
+    margin: 10px;
+}
+.card-3>p{
+    margin: 20px auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.follow{
+    position: absolute;
+    top: 112%;
+    left: 40%;
+}
+.social-icon{
+    position: absolute;
+    top: 118%;
+    left: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    /* background: aqua; */
+    height: 70px;
+    width: 70px;
+}
+
+
+.social-icon li a img{
+    height: 60px;
+    width: 60px;
+    /* background: aqua; */
+}
+.last{
+    position: absolute;
+    top: 500%;
+    left: 0%;
+    background:#1c301e;
+    width: 100%;
+    height: 900px;
+}
+.cont >h2{
+      position: absolute;
+      top: 20px;
+      left: 45%;
+      color: #fff;
+}
+.timing>p{
+    position: absolute;
+    top: 8%;
+    left: 40%;
+    padding: 10px;
+    color: #fff;
+}
+.phone>button{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    margin: 10px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 270px;
+    background: #b5b89a;
+    color: #fff;
+    border-radius: 10px;
+}
+.phone button>img{
+    height: 30px;
+    width: 35px;
+    padding: 5px auto;
+    color: #fff;
+    position: relative;
+   right:20px;
+    color: #fff;
+}
+
+.end{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    /* background: aqua; */
+    color: #fff;
+    height: 250px;
+    width: 300px;
+}
+
+.inner-end{
+    position: relative;
+    top: 20px;
+    left: 50px;
+    width: 400px;
+}
+
+.one{
+    height: 60px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.two{
+    height: 60px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.three{
+    height: 60px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.oh{
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    background: #4e6b51;
+}
+.oh:hover{
+    background: #000;
+    color: #fff;
+    transition: 0.3s ease-in;
+}
+
+.four{
+
+        height: 100px;
+        width: 500px;
+        border-radius: 10px;
+        margin: 10px;
+}
+
+
